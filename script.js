@@ -9,16 +9,12 @@ const backgroundImages = [
 let currentImageIndex = 0;
 
 const brotherData = {
-    "amar": {
-        quote: "May your brotherly bond be as strong as iron and never break in times of trouble. Again wishing you a very Happy Raksha Bandhan! ",
-        image: "images/amar.jpeg",
+    "mahesh": {
+        quote: "Best wishes for a bright and prosperous future✨🫶🏻 Thanks for being such a great friend and colleague.🤗🫰🏻 We’ll miss you, but I wish you all the best ❤️ I believe in you, and I’m always here for you now and in the future! ✨🤍 Love you so much Mahesh anna and I missed a lot...🥺🫶🏻 ",
+        image: "images/mahesh.jpeg",
         song: "songs/song1.mp3" // Replace with actual song URL
     },
-     "amarnadh": {
-        quote: "May your brotherly bond be as strong as iron and never break in times of trouble. Again wishing you a very Happy Raksha Bandhan! ",
-        image: "images/amar.jpeg",
-        song: "songs/song1.mp3" // Replace with actual song URL
-    },
+   
 };
 
 function addBrother() {
@@ -74,7 +70,7 @@ function displayWishes(name) {
 
     const kavyaElem = document.createElement('p');
     kavyaElem.classList.add('secret-name');
-    kavyaElem.textContent = '— Rajeswari & Prasanna';
+    kavyaElem.textContent = '— Srilekha';
     kavyaElem.style.visibility = 'hidden';
 
     message.appendChild(nameElem);
