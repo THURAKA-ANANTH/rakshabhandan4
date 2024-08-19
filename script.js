@@ -1,9 +1,7 @@
 
 const brothers = [];
 const backgroundImages = [
-    'images/bg1.png',
-    'images/bg2.jpeg','images/bg3.jpeg','images/bg4.jpeg','images/bg5.jpeg','images/bg6.jpeg','images/bg7.jpeg','images/bg8.jpeg','images/bg9.jpeg','images/bg10.jpeg',
-    'images/bg11.jpeg','images/bg12.jpeg','images/bg13.jpeg',
+    'images/bg1.jpeg'
 ];
 
 let currentImageIndex = 0;
@@ -12,7 +10,7 @@ const brotherData = {
     "mahesh": {
         quote: "Best wishes for a bright and prosperous future✨🫶🏻 Thanks for being such a great friend and colleague.🤗🫰🏻 We’ll miss you, but I wish you all the best ❤️ I believe in you, and I’m always here for you now and in the future! ✨🤍 Love you so much Mahesh anna and I missed a lot...🥺🫶🏻 ",
         image: "images/mahesh.jpeg",
-        song: "songs/song1.mp3" // Replace with actual song URL
+        song: "songs/song2.mpeg" // Replace with actual song URL
     },
    
 };
