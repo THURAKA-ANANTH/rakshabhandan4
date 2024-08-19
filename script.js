@@ -1,4 +1,3 @@
-
 const brothers = [];
 const backgroundImages = [
     'images/bg1.jpeg'
@@ -9,10 +8,10 @@ let currentImageIndex = 0;
 const brotherData = {
     "naveen": {
         quote: "My love towards you is a symbol of unbreakable bond",
-            image: "images/image.png",
+        image: "images/image.png",
         song: "songs/song1.mp3" // Replace with actual song URL
     },
-   
+    // Add more brothers as needed
 };
 
 function addBrother() {
@@ -50,17 +49,18 @@ function displayWishes(name) {
         img.src = brotherData[name].image;
         quoteElem.textContent = brotherData[name].quote;
 
-        const audioElem = document.createElement('audio');
-        audioElem.controls = false;
-        audioElem.loop = true;
-        audioElem.autoplay = true;
+        // Remove this block as the song is played using playBackgroundMusic()
+        // const audioElem = document.createElement('audio');
+        // audioElem.controls = false;
+        // audioElem.loop = true;
+        // audioElem.autoplay = true;
 
-        const sourceElem = document.createElement('source');
-        sourceElem.src = brotherData[name].song;
-        sourceElem.type = 'audio/mpeg';
-        audioElem.appendChild(sourceElem);
+        // const sourceElem = document.createElement('source');
+        // sourceElem.src = brotherData[name].song;
+        // sourceElem.type = 'audio/mpeg';
+        // audioElem.appendChild(sourceElem);
 
-        message.appendChild(audioElem);
+        // message.appendChild(audioElem);
     } else {
         img.src = 'images/default.png';
         quoteElem.textContent = 'A brother shares childhood memories and grown-up dreams.';
