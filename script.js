@@ -7,10 +7,10 @@ const backgroundImages = [
 let currentImageIndex = 0;
 
 const brotherData = {
-    "mahesh": {
-        quote: "Best wishes for a bright and prosperous future✨🫶🏻 Thanks for being such a great friend and colleague.🤗🫰🏻 We’ll miss you, but I wish you all the best ❤️ I believe in you, and I’m always here for you now and in the future! ✨🤍 Love you so much Mahesh anna and I missed a lot...🥺🫶🏻 ",
-        image: "images/mahesh.jpeg",
-        song: "songs/song2.mpeg" // Replace with actual song URL
+    "naveen": {
+        quote: "My love towards you is a symbol of unbreakable bond",
+            image: "images/image.png",
+        song: "songs/song1.mp3" // Replace with actual song URL
     },
    
 };
@@ -68,7 +68,7 @@ function displayWishes(name) {
 
     const kavyaElem = document.createElement('p');
     kavyaElem.classList.add('secret-name');
-    kavyaElem.textContent = '— Srilekha';
+    kavyaElem.textContent = '— Sneha';
     kavyaElem.style.visibility = 'hidden';
 
     message.appendChild(nameElem);
